@@ -76,15 +76,15 @@ export default function QuotationGeneratorPrototype() {
 
   const [form, setForm] = useState({
     quotationBy: "Micera Solutions",
-    contactName: "Benjamin Au Yong",
-    companyName: "Goldken Sdn Bhd",
-    address1: "9, Jln. 18/17, tmn. Kanagapuram",
-    address2: "off Jln. Klang Lama",
-    address3: "Petaling Jaya, Selangor, Malaysia",
-    documentNo: "Q2025010701",
-    invoiceNo: "INV2025010701",
-    invoiceDate: "2025-01-07",
-    dueDate: "2025-01-14",
+    contactName: "Target Name",
+    companyName: "Target Sdn Bhd",
+    address1: "Target Address",
+    address2: "Target Address 2",
+    address3: "Target Address 3",
+    documentNo: "Q2026010101",
+    invoiceNo: "INV2026010101",
+    invoiceDate: "2026-01-01",
+    dueDate: "2026-01-01",
     notes: defaultNotes.join("\n"),
   });
 
